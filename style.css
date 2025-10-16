@@ -64,7 +64,19 @@ label {
   font-size: 1.1;
 
 }
+input[type="text"],
+input[type="email"] {
+  
+  padding: 10px;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #aeea00;
+  outline: none;
 
+}
 }
 
 a {
