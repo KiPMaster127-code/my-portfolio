@@ -58,25 +58,24 @@ li {
 label {
 
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1.1;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 1;
 
 }
-input[type="text"],
-input[type="email"] {
+
+
+form {
+
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
   
-  padding: 10px;
-  margin-top: 20px; 
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-sizing: border-box;
-  border-color: #aeea00;
-  outline: none;
-
 }
+
 }
 
 a {
