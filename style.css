@@ -1,0 +1,146 @@
+body {
+  background-image: url(https://img.lovepik.com/background/20211022/large/lovepik-black-texture-background-image_500861599.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e0f7fa;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  body {
+    text-align: left;
+    padding: 10px;
+  }
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  margin-bottom: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
+h2 {
+  
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  margin-bottom: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.1;
+
+}
+
+li {
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.1;
+}
+
+label {
+
+  font-family: "Oswald", sans-serif;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 1;
+
+}
+
+
+form {
+
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  
+}
+
+}
+
+a {
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #aeea00;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #d4ff33;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin:150px;
+}
+
+
+
+button {
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #aeea00;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.navigation-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  
+  padding: 10px;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: #aeea00;
+  outline: none;
+
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 0.9;
+  color: #b0bec5;
+}
+
