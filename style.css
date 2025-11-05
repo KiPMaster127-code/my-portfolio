@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  
 }
 
 h1 {
@@ -70,7 +71,7 @@ form {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
-  background-color: rgba(26, 26, 26, 0.8);
+  background-color: rgba(19, 18, 18, 0.8);
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(174, 234, 0, 0.3);
 }
@@ -159,6 +160,20 @@ input[type="message"] {
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 
 }
+
+.center {
+  font-family: "Oswald", sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 2px solid #aeea00; 
+  border-radius: 12px;
+  background-color: rgba(26, 26, 26, 0.8); 
+  box-shadow: 0 0 20px rgba(174, 234, 0, 0.3); 
+  color: #e0f7fa;
+  text-align: center;
+}
+
 
 @media (max-width: 768px) {
   body {

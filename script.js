@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("email", email);
     localStorage.setItem("message", message);
 
-    alert("Your message has been saved locally!");
+    alert("Your message has been sent! I will get back to you as soon as possbile!");
     form.reset();
   });
 });
